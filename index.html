@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title>milina</title>
+    <title>American nail</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -80,16 +80,27 @@
                       <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
+                      <a
+                        class="nav-link"
+                        href="#"
+                        onclick="document.getElementById('about_part').scrollIntoView({ behavior: 'smooth' });"
+                        >Über</a
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="we-do.html">What we do</a>
+                      <a
+                        class="nav-link"
+                        onclick="document.getElementById('we_do_part').scrollIntoView({ behavior: 'smooth' });"
+                        href="#"
+                        >Was wir tun</a
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="pricing.html">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
+                      <a
+                        class="nav-link"
+                        onclick="document.getElementById('contact_part').scrollIntoView({ behavior: 'smooth' });"
+                        >Kontaktieren Sie uns</a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -139,18 +150,17 @@
               <div class="carousel-caption relative">
                 <div class="row d_flex">
                   <div class="col-md-6">
-                    <img class="bann_img" src="images/banner_ing.jpg" alt="#" />
+                    <img class="bann_img" src="images/banner1.jpg" alt="#" />
                   </div>
                   <div class="col-md-6">
                     <span>01/03</span>
-                    <h1>Milina nail Salon Creating Beauty</h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempo
+                    <h1>American nail Salon</h1>
+                    <p style="font-size: 24px">
+                      Willkommen in unserem Nagelstudio! Wir bieten
+                      professionelle Maniküre, Pediküre und kreative Nail Art.
+                      Lassen Sie sich von unserem erfahrenen Team verwöhnen und
+                      genießen Sie perfekte Nägel in entspannter Atmosphäre.
                     </p>
-                    <a class="get_btn" href="Javascript:void(0)" role="button"
-                      >Get Appoinment</a
-                    >
                   </div>
                 </div>
               </div>
@@ -161,18 +171,17 @@
               <div class="carousel-caption relative">
                 <div class="row d_flex">
                   <div class="col-md-6">
-                    <img class="bann_img" src="images/banner_ing.jpg" alt="#" />
+                    <img class="bann_img" src="images/banner2.jpg" alt="#" />
                   </div>
                   <div class="col-md-6">
                     <span>02/03</span>
-                    <h1>Milina nail Salon Creating Beauty</h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempo
+                    <h1>American nail Salon</h1>
+                    <p style="font-size: 24px">
+                      Willkommen in unserem Nagelstudio! Genießen Sie eine
+                      entspannende Pediküre, bei der Ihre Füße verwöhnt und Ihre
+                      Nägel perfekt gepflegt werden. Unser erfahrenes Team sorgt
+                      für Wohlbefinden und Schönheit.
                     </p>
-                    <a class="get_btn" href="Javascript:void(0)" role="button"
-                      >Get Appoinment</a
-                    >
                   </div>
                 </div>
               </div>
@@ -183,18 +192,18 @@
               <div class="carousel-caption relative">
                 <div class="row d_flex">
                   <div class="col-md-6">
-                    <img class="bann_img" src="images/banner_ing.jpg" alt="#" />
+                    <img class="bann_img" src="images/banner3.jpg" alt="#" />
                   </div>
                   <div class="col-md-6">
                     <span>03/03</span>
-                    <h1>Milina nail Salon Creating Beauty</h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempo
+                    <h1>American nail Salon</h1>
+                    <p style="font-size: 24px">
+                      Willkommen in unserem Studio! Wir bieten professionelle
+                      Wimpernverlängerungen und -lifting für einen bezaubernden
+                      Augenaufschlag. Lassen Sie sich von unserem erfahrenen
+                      Team verwöhnen und genießen Sie einen atemberaubenden
+                      Look.
                     </p>
-                    <a class="get_btn" href="Javascript:void(0)" role="button"
-                      >Get Appoinment</a
-                    >
                   </div>
                 </div>
               </div>
@@ -222,13 +231,13 @@
       </div>
     </section>
     <!-- end banner -->
-    <!-- what we do  -->
-    <div class="we_do slin">
+    <!-- Was wir tun  -->
+    <div class="we_do slin" id="we_do_part">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="titlepage">
-              <h2>What We Do</h2>
+              <h2>Was wir tun</h2>
             </div>
           </div>
         </div>
@@ -238,29 +247,25 @@
               <div class="col-md-3 col-sm-6">
                 <div class="we_box">
                   <i><img src="images/weicon1.png" alt="#" /></i>
-                  <h3>Nail Art</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                  <h3>Nagelkunst</h3>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="we_box">
                   <i><img src="images/weicon2.png" alt="#" /></i>
-                  <h3>Manicure</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                  <h3>Maniküre</h3>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="we_box">
                   <i><img src="images/weicon3.png" alt="#" /></i>
-                  <h3>Pedicure</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                  <h3>Pediküre</h3>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="we_box">
-                  <i><img src="images/weicon4.png" alt="#" /></i>
-                  <h3>Paraffin wax</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                  <i><img src="images/service4.png" alt="#" /></i>
+                  <h3>Wimpernverlängerung und -lifting</h3>
                 </div>
               </div>
             </div>
@@ -268,148 +273,42 @@
         </div>
       </div>
     </div>
-    <!-- end what we do  -->
+    <!-- end Was wir tun  -->
     <!-- about -->
-    <div class="about slin2">
+    <div class="about slin2" id="about_part">
       <div class="container">
         <div class="row d_flex">
           <div class="col-md-6">
             <div class="titlepage">
-              <h2>About Us</h2>
+              <h2>Über</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation
+                Willkommen in unserem Salon! Wir bieten professionelle Maniküre,
+                Pediküre und Wimpernverlängerungen an. Genießen Sie exzellente
+                Pflege für Ihre Nägel und Füße sowie einen atemberaubenden
+                Augenaufschlag in einem komfortablen und hygienischen Umfeld.
+                Besuchen Sie uns für Schönheit und Entspannung!
               </p>
               <a class="read_more" href="Javascript:void(0)"> Read More</a>
             </div>
           </div>
           <div class="col-md-6">
             <div class="about_img">
-              <figure><img src="images/about.png" alt="#" /></figure>
+              <figure><img src="images/about.jpg" alt="#" /></figure>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- end about -->
-    <!-- our pricing -->
-    <div class="pricing slin">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="titlepage">
-              <h2>Our Pricing</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="pricing_box">
-              <div class="pricing_box_ti">
-                <h3><span>$</span>20<strong>/one Day</strong></h3>
-              </div>
-              <div class="our_pricing">
-                <span>Regular</span>
-                <p>Lorem ipsum dolor sit amet, iscing elit, sed do magna</p>
-              </div>
-            </div>
-            <a class="read_more mar_top" href="Javascript:void(0)"> Book Now</a>
-          </div>
-          <div class="col-md-4">
-            <div class="pricing_box">
-              <div class="pricing_box_ti">
-                <h3><span>$</span>30<strong>/one Day</strong></h3>
-              </div>
-              <div class="our_pricing">
-                <span>Standard</span>
-                <p>Lorem ipsum dolor sit amet, iscing elit, sed do magna</p>
-              </div>
-            </div>
-            <a class="read_more mar_top" href="Javascript:void(0)"> Book Now</a>
-          </div>
-          <div class="col-md-4">
-            <div class="pricing_box">
-              <div class="pricing_box_ti">
-                <h3><span>$</span>40<strong>/one Day</strong></h3>
-              </div>
-              <div class="our_pricing">
-                <span>Premium</span>
-                <p>Lorem ipsum dolor sit amet, iscing elit, sed do magna</p>
-              </div>
-            </div>
-            <a class="read_more mar_top" href="Javascript:void(0)"> Book Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end our pricing -->
-    <!-- experts -->
-    <div class="experts slin2">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="titlepage">
-              <h2>Meet Our Experts</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2 col-md-12">
-            <div class="row">
-              <div class="col-md-4">
-                <div id="exp" class="experts_box">
-                  <div class="experts_img">
-                    <figure><img src="images/blog1.jpg" alt="#" /></figure>
-                  </div>
-                  <div class="meet">
-                    <h3>Jacob</h3>
-                    <p>Lorem ipsum dolor sit amet, iscing elit, sed do magna</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div id="exp" class="experts_box">
-                  <div class="experts_img">
-                    <figure><img src="images/blog2.jpg" alt="#" /></figure>
-                  </div>
-                  <div class="meet">
-                    <h3>Lonut</h3>
-                    <p>Lorem ipsum dolor sit amet, iscing elit, sed do magna</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div id="exp" class="experts_box">
-                  <div class="experts_img">
-                    <figure><img src="images/blog3.jpg" alt="#" /></figure>
-                  </div>
-                  <div class="meet">
-                    <h3>Irina</h3>
-                    <p>Lorem ipsum dolor sit amet, iscing elit, sed do magna</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <a class="read_more mar_top exper" href="Javascript:void(0)">
-                  Read More</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end experts -->
     <!--  contact -->
-    <div class="contact">
+    <div class="contact" id="contact_part">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
             <div class="map_main">
               <div class="map-responsive">
                 <iframe
-                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2690.660182924487!2d7.6248157757501245!3d47.59385137118869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791bb337ee22cc9%3A0x66711d2aa96010a7!2sAmerican%20nails%20weil%20am%20Rhein!5e0!3m2!1sen!2s!4v1722802015693!5m2!1sen!2s"
                   width="600"
                   height="386"
                   frameborder="0"
@@ -431,75 +330,68 @@
             <div class="col-md-12">
               <ul class="conta">
                 <li>
-                  <i class="fa fa-map-marker" aria-hidden="true"></i> Passages
-                  of Lorem Ipsum available
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>Hauptstraße
+                  171, 79576 Weil am Rhein
                 </li>
                 <li>
-                  <i class="fa fa-phone" aria-hidden="true"></i> Call :
-                  +012334567890
-                </li>
-                <li>
-                  <i class="fa fa-envelope" aria-hidden="true"></i
-                  ><a href="#"> demo@gmail.com</a>
+                  <i class="fa fa-phone" aria-hidden="true"></i> Call : 0152
+                  2379 5899/ 0762 1770 4764
                 </li>
               </ul>
             </div>
-            <div class="col-md-3 col-sm-6">
-              <h3>About</h3>
+            <div class="col-md-6 col-sm-6">
+              <h3>Über</h3>
               <p class="variat">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered le
+                Willkommen in unserem Salon! Wir bieten professionelle Maniküre,
+                Pediküre und Wimpernverlängerungen an. Genießen Sie exzellente
+                Pflege für Ihre Nägel und Füße sowie einen atemberaubenden
+                Augenaufschlag in einem komfortablen und hygienischen Umfeld.
+                Besuchen Sie uns für Schönheit und Entspannung!
               </p>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-4 col-sm-6">
               <h3>Nail Salon</h3>
               <p class="variat">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered le
+                <b>Öffnungszeiten</b><br/>
+                Mo.-Fr: 9.00-19.00Uhr<br/>
+                Sa.   : 9.00-18.00Uhr
               </p>
             </div>
             <div class="col-md-2 col-sm-6">
               <h3>Useful Link</h3>
               <ul class="link_menu">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html"> About</a></li>
-                <li><a href="we-do.html">What we do</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                  <a
+                    onclick="document.getElementById('about_part').scrollIntoView({ behavior: 'smooth' });"
+                    href="#"
+                    >Über</a
+                  >
+                </li>
+                <li>
+                  <a
+                    onclick="document.getElementById('we_do_part').scrollIntoView({ behavior: 'smooth' });"
+                    href="#"
+                    >Was wir tun</a
+                  >
+                </li>
+                <li>
+                  <a
+                    onclick="document.getElementById('contact_part').scrollIntoView({ behavior: 'smooth' });"
+                    href="#"
+                    >Kontaktieren Sie uns</a
+                  >
+                </li>
               </ul>
             </div>
-            <div class="col-md-4 col-sm-6">
-              <h3>Subscribe</h3>
-              <form class="bottom_form">
-                <a class="right_btn" href="Javascript:void(0)">
-                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i
-                ></a>
-                <input
-                  class="enter"
-                  placeholder="Enter your email"
-                  type="text"
-                  name="Enter your email"
-                />
-                <p>There are many variations of passages</p>
-              </form>
-            </div>
           </div>
-        </div>
-        <div class="copyright">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 offset-md-1">
-                <p>
-                  © 2019 All Rights Reserved. Design by
-                  <a href="https://html.design/"> Free Html Templates</a>
-                </p>
-              </div>
-            </div>
-          </div>
+          <div class="row"><br/></div>
+          <div class="row"><br/></div>
         </div>
       </div>
     </footer>
     <!-- end footer -->
+
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
